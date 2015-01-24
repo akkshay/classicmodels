@@ -1,0 +1,140 @@
+/* CSS Document */
+
+/* reset styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ 	padding: 0;
+ 	margin: 0;
+ 	font-size: 100%;
+ 	font-weight: normal;
+}
+table {
+	border: 0; 
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+td, th, caption { 
+	font-weight: normal; 
+	text-align: left; 
+}
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+/* end reset */
+
+body {
+	font: 14px Verdana, Arial, Helvetica, sans-serif;
+	margin: 25px 0 0 50px;
+	padding: 0 0 15px 0px;
+}
+
+h1 {
+	font-size: 1.5em;
+	color: #006;
+	margin-bottom: 5px;
+}
+
+a:link, a:visited {
+	color: #23488B;
+}
+
+a:hover {
+	color: #ECB414;
+}
+
+a:link, a:visited, a:hover {
+	text-decoration: none;
+}
+
+a {
+	font-size: .8em;
+}
+
+table {
+	margin: 5px 0 15px 0;
+	cellpadding: 10px;
+	cellspacing: 0px;
+	width: 528px;
+}
+#results {
+	width: 850px;
+}
+td {
+	padding: 5px;
+	text-align: left;
+	font-size: .8em;
+}
+p {
+	margin-bottom: 10px;
+	font-size: .9em;
+}
+.even {
+	background-color: #E9EDF3;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+th {
+	padding: 5px;
+	text-transform: uppercase;
+	font-size: .75em;
+	font-weight: bold;
+}
+.total {
+	font-size: .6em;
+	font-style: italic;
+	color: #23488B;
+}
+div.footer {
+	width: 200px;
+	padding-top: 5px;
+	border-top: 1px solid #23488B;
+}
+.footer {
+	font-size: .5em;
+	color: #23488B;
+	margin-top: 5px;
+	
+}
+#index #indexLink, #index #indexLink2,
+#desert #desertLink, #desert #desertLink2,
+#tropicalrainforest #tropicalrainforestLink, #tropicalrainforest #tropicalrainforestLink2, 
+#deciduousforest #deciduousforestLink, #deciduousforest #deciduousforestLink2,
+#grassland #grasslandLink, #grassland #grasslandLink2,
+#marine #marineLink, #marine #marineLink2,
+#taiga #taigaLink, #taiga #taigaLink2,
+#tundra #tundraLink, #tundra #tundraLink2,
+#survey_form #survey_formLink, #survey_form #survey_formLink2,
+#survey_results #survey_resultsLink, #survey_results #survey_resultsLink2,
+#logins #loginsLink,
+#addcustomer #addcustomerLink,
+#index #indexLink,
+#employees #employeesLink,
+#offices #officesLink,
+#products #productsLink,
+#customers #customersLink
+{
+  font-weight: bold;
+  color:#006;
+}
+.blue {
+	color:#23488B;
+}
+.reditalic {
+	color:#FF0000;
+	font-style:italic;
+	font-size: .7em;
+}
+.label {
+	font-size: .9em;
+}
+.large {
+	font-size: 1.4em;
+	margin-bottom: 2px;
+	border-bottom: 1px solid #23488B;
+	width: 285px;
+}
+table.login {
+	width: 300px;
+}
+.right { text-align: right; }
+

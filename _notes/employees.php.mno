@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8" ?><info>	<infoitem key="UD_rs_employees" value="name:officeCode;datatype:string,name:employeeNumber;datatype:int,name:lastName;datatype:string,name:firstName;datatype:string,name:extension;datatype:string,name:email;datatype:string,name:city;datatype:string,name:jobTitle;datatype:string" /></info>
